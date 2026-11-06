@@ -40,7 +40,8 @@ Inspired by the end-to-end project framework by *Data with Baraa*, this project 
 ## 📐 Data Model Comparison
 
 | Initial State ("Nightmare Schema") | Refactored State ("Star Schema") |
-| :--- | :--- |
+| :---: | :---: |
+| ![Initial Nightmare Model](./nightmare_model.png) | ![Refactored Star Schema](./clean_model.png) |
 | Untangled mesh of bi-directional filters | Clean 1-to-many single-direction filters |
 | Direct Fact-to-Fact relationships | Shared dimension tables bridging fact tables |
 | Ambiguous relationships causing inaccurate measure totals | Deterministic, highly performant measure calculations |
@@ -58,4 +59,4 @@ Inspired by the end-to-end project framework by *Data with Baraa*, this project 
 ## 🚀 How to Run This Project
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/powerbi-nightmare-data-model-cleanup.git](https://github.com/YOUR_USERNAME/powerbi-nightmare-data-model-cleanup.git)
+   git clone [https://github.com/samihajahanema27/powerbi-nightmare-data-model-cleanup.git](https://github.com/samihajahanema27/powerbi-nightmare-data-model-cleanup.git)
